@@ -6,3 +6,30 @@
   font: inherit;
   box-sizing: border-box;
 }
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+.dashboard li{
+    height: 100px;
+}
+
+.dashboard-2 {
+    display:flex;
+    flex-direction: column;
+    height: 600px;
+    width: 300px;
+    background-color: blue;
+    flex-wrap: wrap;
+}
+
+.dashboard-2 > li {
+    height: 100px;
+}
