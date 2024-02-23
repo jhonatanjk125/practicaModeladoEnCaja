@@ -6,3 +6,23 @@
   font: inherit;
   box-sizing: border-box;
 }
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f2f0;
+}
+
+.box {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eae6e3;
+  padding: 1.5em;
+  width: 370px;
+}
+
+.box h2 {
+  font-weight: 600;
+  margin-bottom: 1.5em;
+}
