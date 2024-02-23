@@ -1,0 +1,1 @@
+![](storage/img/ejercicio_7.PNG)
