@@ -6,3 +6,11 @@
   font: inherit;
   box-sizing: border-box;
 }
+
+.nav-bar {
+  display:flex;
+}
+
+.nav-bar ul {
+  display: flex;
+}
