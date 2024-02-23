@@ -6,3 +6,49 @@
   font: inherit;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-basis: 100%;
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+nav,
+aside {
+  flex: 1;
+  background-color: #bbbbbb;
+  padding: 1em 0.8em;
+}
+
+article {
+  padding-top: 1.5em;
+  flex: 2;
+  background-color: #aaaaaa;
+}
+
+header,
+footer {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+header {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+footer {
+  font-size: 1.8em;
+}
