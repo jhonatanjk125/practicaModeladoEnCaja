@@ -6,3 +6,61 @@
   font: inherit;
   box-sizing: border-box;
 }
+
+main {
+  background-color: #93d9e9;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-panel {
+  display:flex;
+}
+
+.card {
+  background-color: white;
+  min-width: 400px;
+  box-shadow: 3px 3px 5px;
+  display:flex;
+  flex: 1;
+  min-height: 480px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1em;
+  margin: 20px
+}
+
+.card h2 {
+  background-color: salmon;
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  font-size: 3em;
+  font-weight: 700;
+  padding: 50px 60px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.5em;
+  flex-basis: 100%;
+  padding: 40px 0 200px 0;
+}
+
+.card ul li {
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.card a {
+  padding: 20px 50px;
+  border-radius: 0.8rem;
+  background-color: #f0f0f0;
+  margin-bottom: 1em;
+}
