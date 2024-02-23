@@ -6,3 +6,15 @@
   font: inherit;
   box-sizing: border-box;
 }
+
+.v-menu {
+  list-style: none;
+  width: 500px;
+}
+.v-menu li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 0;
+  margin: 5px 0;
+  background-color: #dddddd;
+}
