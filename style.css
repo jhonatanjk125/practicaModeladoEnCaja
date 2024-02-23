@@ -59,8 +59,16 @@ main {
 }
 
 .card a {
+  text-decoration: none;
+  color: black;
   padding: 20px 50px;
   border-radius: 0.8rem;
   background-color: #f0f0f0;
   margin-bottom: 1em;
+  transition-duration: 0.25s;
+}
+
+.card a:hover {
+  background-color: salmon;
+  transform: translateY(-10px);
 }
