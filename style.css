@@ -1,8 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  background-color: #212121;
+  color: #e1e1e1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+header .logo {
+    width: 30%;
+}
+
+header ul {
+    list-style: none;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+
+}
+
+main aside {
+    width: 30%;
+    height: 85vh;
+    background-color: #2f2f2f;
+    padding: 0em 2em;
+    border-radius: 1rem;
+    margin: 2em;
+}
+
+main aside ul {
+    background-color: inherit;
+}
+
+li {
+    margin-left: 2em;
+    background-color: inherit;
+    display:flex;
+    align-items: center;
+    padding: 1em 0;
+    list-style: none;
+}
+
+li svg {
+    margin: 0.2em;
+    background-color: #2f2f2f;
+}
+
+main section {
+    margin: 2em;
+    width:70%;
+    background-color: #2f2f2f;
+    border-radius: 1rem;
+    padding: 0em 2em;
+}
+
+main section ul {
+    background-color: inherit;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+main section p {
+    background-color: inherit;
+}
+
+main section ul li * {
+    background-color: inherit;
+    flex: 1 1 auto;
+}
+
+h2 {
+    margin: 2em 0;
+    background-color: #2f2f2f;
+    font-weight: 700;
+    color: rgba(187, 134, 252, 1);
 }
