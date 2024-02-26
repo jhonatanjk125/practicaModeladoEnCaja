@@ -9,7 +9,7 @@
 
 .v-menu {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 50px;
   list-style: none;
   width: 500px;
@@ -24,6 +24,8 @@
 
 .v-menu li span {
   margin-left: 1em;
+  padding: 0.2em 0;
+  margin: 0 1.5em;
 }
 
 .v-menu li a {
