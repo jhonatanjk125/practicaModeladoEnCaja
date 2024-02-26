@@ -30,7 +30,18 @@
   margin: 0px 3em;
 }
 
-.nav-bar .lang {
+.nav-bar .lang1 {
   color: white;
   background-color: #8c898e;
+}
+
+.nav-bar .lang2 {
+  color: white;
+  background-color: #8c898e;
+  padding: 1em 0.75em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
