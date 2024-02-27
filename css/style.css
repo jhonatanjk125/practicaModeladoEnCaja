@@ -68,7 +68,7 @@ main aside {
     height: 90vh;
     background-color: var(--secondary-background-color);
     box-shadow: var(--shadow);
-    padding: 0em 2em;
+    padding: 1em 2em;
     border-radius: 1rem;
     margin: 2em;
 }
@@ -105,7 +105,7 @@ main section {
     width:70%;
     background-color: var(--secondary-background-color);
     border-radius: 1rem;
-    padding: 0em 2em;
+    padding: 1em 2em;
     box-shadow: var(--shadow);
 }
 
@@ -136,7 +136,6 @@ main section ul li * {
 
 h2 {
     font-size: 24px;
-    margin: 2em 0;
     background-color: var(--secondary-background-color);
     font-weight: 700;
     color: var(--primary-color);
@@ -184,6 +183,11 @@ p {
   font-weight: bold;
   display: flex;
   align-items: flex-start;
+}
+
+#footer {
+  padding: 1em 0;
+  text-align: center;
 }
 
 
