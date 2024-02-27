@@ -1,16 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+  --primary-color: #9900FF;
+  --secondary-color: rgba(38,31,45,0.9);
+  --background-color: #212121;
+  --secondary-background-color: #2f2f2f;
+  --text-color: #d1d1d1;
+  --des: #d4d4d4;
+  --shadow: #47474762 0px 1px 1px 0px inset, #9900FF40 0px 50px 100px -20px,
+    #9900FF4d 0px 30px 60px -30px;
+  --shadow2: rgba(153, 0, 255, 0.178) 0px 48px 100px 0px;
+}
 
+.dark-theme {
+  --primary-color: #9900FF;
+  --secondary-color: rgba(38,31,45,0.9);
+  --background-color: #212121;
+  --secondary-background-color: #2f2f2f;
+  --text-color: #d1d1d1;
+  --des: #d4d4d4;
+  --shadow: #47474762 0px 1px 1px 0px inset, #9900FF40 0px 50px 100px -20px,
+    #9900FF4d 0px 30px 60px -30px;
+  --shadow2: rgba(153, 0, 255, 0.178) 0px 48px 100px 0px;
+}
 
 * {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
-  background-color: #212121;
-  color: #e1e1e1;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 header {
@@ -24,12 +46,18 @@ header .logo {
     padding: 2rem 4rem;
 }
 
-header ul {
+.main-header {
+
+    height: 5vh;
     list-style: none;
     width: 70%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 2.5em 2.5em 0 4.5em;
 }
+
+
 
 main {
     display: flex;
@@ -39,7 +67,7 @@ main {
 main aside {
     width: 30%;
     height: 90vh;
-    background-color: #2f2f2f;
+    background-color: var(--secondary-background-color);
     padding: 0em 2em;
     border-radius: 1rem;
     margin: 2em;
@@ -58,21 +86,30 @@ li {
     list-style: none;
 }
 
+.sub-items {
+  margin-left: 1em;
+}
+
+svg {
+  color:var(--primary-color);
+  margin: 0.3em;
+}
+
 li svg {
     margin: 0.2em;
-    background-color: #2f2f2f;
+    background-color: var(--secondary-background-color);
 }
 
 main section {
     margin: 2em;
     width:70%;
-    background-color: #2f2f2f;
+    background-color: var(--secondary-background-color);
     border-radius: 1rem;
     padding: 0em 2em;
 }
 
 main section ul {
-    background-color: #2f2f2f;
+    background-color: var(--secondary-background-color);
     display:flex;
     flex-wrap: wrap;
 }
@@ -82,7 +119,8 @@ main section p {
 }
 
 main section ul li {
-    background-color: rgba(38,31,45,0.9);
+    background-color: var(--secondary-color);
+    box-shadow: var(--shadow);
     display: flex;
     flex-wrap: wrap;
     border-radius: 1rem;
@@ -92,12 +130,13 @@ main section ul li {
 }
 
 main section ul li * {
-    background-color: rgba(38,31,45,0);
+    background-color: var(--secondary-color)
 }
 
 h2 {
+    font-size: 24px;
     margin: 2em 0;
-    background-color: #2f2f2f;
+    background-color: var(--secondary-background-color);
     font-weight: 700;
     color: rgba(187, 134, 252, 1);
 }
@@ -105,7 +144,7 @@ h2 {
 .loading-bar {
     width:100%;
     height:20px;
-    background-color: #2f2f2f;
+    background-color: var(--secondary-background-color);
     border-radius: 0.5em;
     margin: 0 0 1em 0;
 }
@@ -113,11 +152,35 @@ h2 {
 .progress-bar {
     width:50%;
     height:20px;
-    background-color:rgba(187, 134, 252, 1);
+    background-color:var(--primary-color);
     border-radius: 0.5em;
+}
+
+
+#progress-bar1{
+  width:60%;
+}
+
+#progress-bar2{
+  width:40%;
+}
+
+#progress-bar3{
+  width:30%;
+}
+
+#progress-bar4{
+  width:80%;
 }
 
 p {
     width:100%;
     margin: 1em 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
 }
