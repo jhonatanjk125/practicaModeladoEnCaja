@@ -70,6 +70,7 @@ main aside {
   border-radius: 1rem;
   padding: 1em 2em;
   box-shadow: var(--shadow);
+  padding-bottom: 2rem;
 }
 
 main aside ul {
@@ -106,6 +107,7 @@ main section {
     border-radius: 1rem;
     padding: 1em 2em;
     box-shadow: var(--shadow);
+    padding-bottom: 2rem;
 }
 
 main section ul {
