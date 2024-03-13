@@ -124,4 +124,6 @@ footer {
   background-color: #cccccc;
   text-align: center;
   padding: 25px 0;
+  position:fixed;
+  bottom:0;
 }
